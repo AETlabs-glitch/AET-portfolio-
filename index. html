@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AET | Adeb…Timilehin</title>
+  <style>
+    /* ---------- General Styles ---------- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+    a { text-decoration: none; color: inherit; }
+    h1, h2, h3 { margin: 0.5em 0; }
+
+    /* ---------- Header ---------- */
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5em; letter-spacing: 2px; }
+    header p { font-size: 1.2em; margin-top: 10px; color: #ccc; }
+
+    /* ---------- Sections ---------- */
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2em;
+      color: #1a1a1a;
+    }
+
+    /* ---------- Projects ---------- */
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .project-card {
+      background: #fff;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .project-card:hover { transform: scale(1.05); }
+    .project-card h3 { margin-bottom: 10px; }
+    .project-card p { font-size: 0.9em; color: #555; }
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #1a1a1a;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+
+    /* ---------- Contact ---------- */
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      background: #1a1a1a;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* ---------- Responsive ---------- */
+    @media(max-width:600px){
+      .projects { flex-direction: column; align-items: center; }
+      .project-card { width: 90%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>AET</h1>
+    <p>Adeb…Timilehin | Founder of AET Technologies</p>
+    <p>Building African-first apps: Music, Social, and Finance</p>
+  </header>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am Adeb…Timilehin (AET), a tech entrepreneur passionate about creating African-first apps that connect people, music, and finance.
+      My goal is to innovate, empower, and modernize digital experiences for Africa and beyond.
+    </p>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Vibezify Lite</h3>
+        <p>A music streaming app for African music built in HTML, CSS, and JS. Play, pause, and explore your favorite songs!</p>
+        <a href="https://yourgithubusername.github.io/vibezify-lite" target="_blank">View Demo</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Future Banking App</h3>
+        <p>A project in progress to integrate payments for content creators and musicians, fully African-focused.</p>
+        <a href="#">Coming Soon</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Social App Idea</h3>
+        <p>Plan to build a platform that connects creators, musicians, and fans with content, streaming, and payments.</p>
+        <a href="#">Coming Soon</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact">
+      <a href="mailto:youremail@example.com">Email</a>
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourgithubusername" target="_blank">GitHub</a>
+      <a href="https://twitter.com/yourtwitter" target="_blank">Twitter</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    &copy; 2026 AET | All Rights Reserved
+  </footer>
+
+</body>
+</html>
